@@ -8,9 +8,6 @@ $GTK_THEME=Colloid-Pink-Dark-Catppuccin
 $COLOR-SCHEME=prefer-dark
 $ICON_THEME=Colloid-Pink-Catppuccin-Dark
 
-$CURSOR_THEME=Bibata-Modern-Ice
-$CURSOR_SIZE=24
-
 general {
     gaps_in = 3
     gaps_out = 8
