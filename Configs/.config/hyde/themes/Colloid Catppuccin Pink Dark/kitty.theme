@@ -1,80 +1,77 @@
 $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 
-## name:     Catppuccin Mocha 🌿
-## author:   Pocco81 (https://github.com/Pocco81)
+## name:     Catppuccin Mocha 🌸 Pink Edition
+## author:   Gabz + Pocco81
 ## license:  MIT
-## upstream: https://github.com/catppuccin/kitty/blob/main/mocha.conf
-## blurb:    Soothing pastel theme for the high-spirited!
+## source:   Adaptado do oficial para bater com tema GTK
 
-
-
-# The basic colors
+# === Básico ===
 foreground              #CDD6F4
 background              #1E1E2E
 selection_foreground    #1E1E2E
-selection_background    #F5E0DC
+selection_background    #F4B8E4
 
-# Cursor colors
-cursor                  #F5E0DC
+# === Cursor ===
+cursor                  #F4B8E4
 cursor_text_color       #1E1E2E
 
-# URL underline color when hovering with mouse
-url_color               #B4BEFE
+# === Links ===
+url_color               #F4B8E4
 
-# Kitty window border colors
-active_border_color     #CBA6F7
-inactive_border_color   #8E95B3
-bell_border_color       #EBA0AC
+# === Bordas da janela do Kitty ===
+active_border_color     #F4B8E4
+inactive_border_color   #6C7086
+bell_border_color       #F5C2E7
 
-# OS Window titlebar colors
+# === Titlebar do sistema ===
 wayland_titlebar_color system
 macos_titlebar_color system
 
-# Tab bar colors
+# === Tab bar ===
 active_tab_foreground   #11111B
-active_tab_background   #CBA6F7
+active_tab_background   #F4B8E4
 inactive_tab_foreground #CDD6F4
 inactive_tab_background #181825
 tab_bar_background      #11111B
 
-# Colors for marks (marked text in the terminal)
+# === Marcadores ===
 mark1_foreground #1E1E2E
-mark1_background #87B0F9
+mark1_background #F4B8E4
 mark2_foreground #1E1E2E
-mark2_background #CBA6F7
+mark2_background #F5C2E7
 mark3_foreground #1E1E2E
-mark3_background #74C7EC
+mark3_background #A6D189  # tom de sucesso leve para contraste
 
-# The 16 terminal colors
+# === Cores do terminal (16-color space) ===
 
 # black
-color0 #43465A
-color8 #43465A
+color0  #181825
+color8  #313244
 
-# red
-color1 #F38BA8
-color9 #F38BA8
+# red (error/destructive)
+color1  #EA999C
+color9  #EA999C
 
-# green
-color2  #A6E3A1
-color10 #A6E3A1
+# green (success)
+color2  #A6D189
+color10 #A6D189
 
-# yellow
-color3  #F9E2AF
-color11 #F9E2AF
+# yellow (warning)
+color3  #E5C890
+color11 #E5C890
 
-# blue
-color4  #87B0F9
-color12 #87B0F9
+# blue (link-ish, menos saturado)
+color4  #89B4FA
+color12 #89B4FA
 
-# magenta
-color5  #F5C2E7
-color13 #F5C2E7
+# magenta (accent!)
+color5  #F4B8E4
+color13 #F4B8E4
 
-# cyan
+# cyan (informativo)
 color6  #94E2D5
 color14 #94E2D5
 
 # white
 color7  #CDD6F4
-color15 #A1A8C9
+color15 #EFF1F5
