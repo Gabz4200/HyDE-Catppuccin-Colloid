@@ -3,6 +3,21 @@ exec = gsettings set org.gnome.desktop.interface icon-theme 'Colloid-Pink-Catppu
 exec = gsettings set org.gnome.desktop.interface gtk-theme 'Colloid-Pink-Dark-Catppuccin'
 exec = gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 
+$HYDE_THEME=Colloid Catppuccin Pink Dark
+$GTK_THEME=Colloid-Pink-Dark-Catppuccin
+$COLOR-SCHEME=prefer-dark
+$ICON_THEME=Colloid-Pink-Catppuccin-Dark
+
+$CURSOR_THEME=Bibata-Modern-Ice
+$CURSOR_SIZE=24
+
+$FONT=Cantarell
+$FONT_SIZE=10
+$DOCUMENT_FONT=Cantarell
+$DOCUMENT_FONT_SIZE=10
+$MONOSPACE_FONT=CaskaydiaCove Nerd Font Mono
+$MONOSPACE_FONT_SIZE=9
+
 general {
     gaps_in = 3
     gaps_out = 8
